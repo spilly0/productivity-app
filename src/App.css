@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  display: inline-flex;
+  max-height: 100%;
 }
 
 .App-logo {
@@ -35,4 +36,41 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Sidebar {
+  width: 300px
+}
+
+.Project-Section {
+  padding: 10px;
+}
+
+body {
+  background-image: url('https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.list {
+  width: 450px;
+  padding: 10px;
+}
+
+.dropdown {
+  display: inline-flex;
+}
+
+.selector {
+  height: 30px
+}
+
+.h1-title {
+  text-align: center;
+}
+
+.selected-project {
+  width: 450px;
+  padding: 10px;
 }
